@@ -70,3 +70,7 @@
 input:focus{
     border: none;
 }
+
+.ms-hover-green:hover{
+    color: #1ABC9C !important;
+}
