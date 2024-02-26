@@ -49,3 +49,24 @@
     margin-right: 24px;
     margin-top: 30px;
 }
+
+.ms-btn{
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+}
+
+.ms-btn-green{
+    background-color: #1ABC9C;
+    border: 1px solid white;
+}
+
+.ms-form{
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+
+input:focus{
+    border: none;
+}

@@ -98,30 +98,38 @@
                     <div class="col-12 col-lg-6 py-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quae totam odio eligendi voluptates quam ad quaerat asperiores iusto qui velit, sed quod ullam quasi consequatur dolore, rem optio at?</div>
                 </div>
                 <div class="py-3">
-                    <button>Button</button>
+                    <button type="button" class="ms-btn ms-btn-green"><i class="fa-solid fa-download"></i> Download</button>
                 </div>
             </div>
         </section>
 
         <section>
-            <div class="container text-center py-5">
-                <h2 class="ms-h2 ms-padding-top">CONTACT ME</h2>
+            <div class="container py-5">
+                <h2 class="ms-h2 ms-padding-top text-center">CONTACT ME</h2>
                 <div class="d-flex justify-content-center align-items-center">
                     <div class="ms-line"></div>
                     <i class="fa-solid fa-star"></i>
                     <div class="ms-line"></div>
                 </div>
-                <div class="row text-start">
-                    <div class="col-12">Name</div>
-                    <hr>
-                    <div class="col-12">Name</div>
-                    <hr>
-                    <div class="col-12">Name</div>
-                    <hr>
-                    <div class="col-12">Name</div>
-                    <hr>
-                </div>
-                <button>Button</button>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control ms-form" id="name" placeholder=".">
+                        <label for="name" class="form-label">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control ms-form" id="exampleInputEmail1" placeholder=".">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control ms-form" id="phone-number" placeholder=".">
+                        <label for="phone-number" class="form-label">Phone number</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control ms-form" id="message" placeholder=".">
+                        <label for="message" class="form-label">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-success ms-btn-green">Submit</button>
+                </form>
             </div>
         </section>
         <!-- /MAIN -->
